@@ -1,0 +1,11 @@
+{
+  "name": "newsweek-clone",
+  "version": "1.0.0",
+  "description": "This project, consists of using and get to know about bootstrap. By be cloning the Newsweek website.",
+  "main": "app.js",
+  "scripts": {
+    "start": "sass ./assets/css/sass/main.scss ./assets/css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
