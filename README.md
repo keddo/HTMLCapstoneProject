@@ -1,6 +1,6 @@
-# Capstone Project -- Find favoratie Hotel to stay
+# Using Bootstrap -- Newsweek clone 
 
-> This project, consists of building responsive website by specifying you own business requirements. According to the design given.
+> This project, consists of using and get to know about bootstrap. By be cloning the Newsweek website.
 
 ![screenshot](./app_screenshot.png)
 

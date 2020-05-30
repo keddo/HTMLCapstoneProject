@@ -1,3 +1,36 @@
+body {
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../img/bg-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+header {
+  background: #d35648;
+  text-align: center;
+}
+header .brand a {
+  display: block;
+  padding: 0.6em 0;
+}
+header nav ul {
+  padding: 0.6em 0;
+}
+header nav li {
+  display: inline-block;
+  margin-right: 2em;
+}
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  nav li span {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

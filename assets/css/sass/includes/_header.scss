@@ -1,0 +1,26 @@
+header {
+    background: $color-primary;
+    text-align: center;
+    
+    .brand a {
+        display: block;
+        padding: 0.6em 0;
+    }
+    nav ul {
+        padding: 0.6em 0;
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 2em;
+    }
+    nav li:last-of-type {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav li span {
+        display: none;
+    }
+}
