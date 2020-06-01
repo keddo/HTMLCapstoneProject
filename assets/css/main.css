@@ -2,7 +2,7 @@ body {
   font-family: "Roboto', sans-serif";
   width: 100%;
   max-width: 100%;
-  background-image: url("../img/bg-3.jpg");
+  background-image: url("../img/bg-4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,18 +15,64 @@ h2 {
   line-height: 1;
 }
 
-main .content-search {
-  padding: 4em 1em;
+.title {
+  color: #d35648;
+  letter-spacing: -0.05em;
 }
+
+.text-red-light {
+  color: #d35648;
+}
+
 main h2 {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 0.4em;
 }
+main .hero {
+  width: 95%;
+  margin: 0 auto;
+}
+main .content-search {
+  padding: 2em 0;
+}
 main .content-form {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 1em 0.4em;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em 0.5em;
   border-radius: 0.5em;
+}
+main .btn-light-red {
+  background: #d35648;
+}
+main .services {
+  background-color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+main .promos {
+  text-align: center;
+}
+main .promo {
+  padding: 1em 0;
+}
+main #promo-1 {
+  background: #d35648;
+}
+main #promo-2 {
+  background: #8B9798;
+}
+main #promo-3 {
+  background: #509BD7;
+}
+main .promo img {
+  width: 200px;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 50%;
+}
+main .promo-info {
+  padding: 1em;
+  color: #fff;
 }
 
 header {
@@ -52,6 +98,71 @@ header nav li:last-of-type {
   nav li span {
     display: none;
   }
+}
+footer {
+  background-color: #000;
+  text-align: center;
+}
+
+footer p {
+  color: #848586;
+  padding: 0.8em 0;
+}
+
+.upper {
+  padding: 1em 0;
+}
+
+.upper ul {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.upper li {
+  display: inline-block;
+  margin-right: 0.6em;
+}
+
+.upper li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.middle {
+  padding: 0.5em 1em;
+}
+
+.short-info {
+  display: block;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.social {
+  background-color: #171717;
+}
+
+.social-link {
+  padding-top: 1em;
+}
+
+.social-link ul li {
+  display: inline-block;
+  margin-right: 0.8em;
+}
+
+.copyright {
+  font-size: 0.92rem;
+}
+
+.bg-send {
+  background-color: #444444;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */
