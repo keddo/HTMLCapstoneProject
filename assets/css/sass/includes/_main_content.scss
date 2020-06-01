@@ -121,3 +121,19 @@ main {
 
    
 }
+
+@media (min-width: 1024px) {
+    main .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5em;
+        padding: 1em 2em;
+    }
+    main .service {
+        width: 400px;
+        margin: 0 auto;
+    }
+    main .title {
+        grid-column: 1/3;
+    }
+}
