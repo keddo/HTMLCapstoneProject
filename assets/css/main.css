@@ -49,6 +49,9 @@ main .services {
   padding: 1em;
   text-align: center;
 }
+main .service h2 {
+  margin: 0.5em 0;
+}
 main .promos {
   text-align: center;
 }
@@ -74,7 +77,65 @@ main .promo-info {
   padding: 1em;
   color: #fff;
 }
+main .content-form label {
+  color: #000;
+}
+main .service:last-of-type {
+  margin-bottom: 2em;
+}
 
+@media (min-width: 768px) {
+  main .hero {
+    width: 70%;
+    margin: 5em auto !important;
+  }
+
+  .content-search {
+    padding: 0;
+  }
+
+  .content-form input,
+.content-form button {
+    display: inline-block;
+  }
+
+  .content-form button {
+    margin-left: -0.3em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .btn-block {
+    width: 15%;
+  }
+
+  .form-control {
+    width: 85%;
+    padding: 1.15em 0.75em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  main .content-form {
+    padding: 2em 0.8em;
+  }
+
+  main .promo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+  }
+
+  main .promo-img {
+    order: 2;
+    padding: 1em 0;
+  }
+
+  main .promo-info {
+    text-align: left;
+    width: 50%;
+  }
+}
 header {
   background: #d35648;
   text-align: center;
@@ -94,9 +155,29 @@ header nav li:last-of-type {
   margin-right: 0;
 }
 
-@media (max-width: 768px) {
-  nav li span {
-    display: none;
+nav li span {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header nav {
+    width: 70%;
+  }
+
+  header nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header nav ul li {
+    margin: 0;
   }
 }
 footer {

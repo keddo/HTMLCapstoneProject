@@ -25,7 +25,9 @@ main {
         padding: 1em;
         text-align: center;
     }
-
+   .service h2 {
+     margin: 0.5em 0;
+   }
     .promos {
         text-align: center;
     }
@@ -57,4 +59,65 @@ main {
        padding: 1em;
        color: #fff;
     }
+
+    .content-form label {
+        color: #000;
+    }
+   .service:last-of-type {
+        margin-bottom: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+    main .hero {
+        width: 70%;
+        margin: 5em auto !important;
+    }
+
+    .content-search {
+        padding: 0;
+    }
+    
+    .content-form input,
+    .content-form button {
+        display: inline-block;
+    }
+    
+    .content-form button  {
+       margin-left: -0.3em;
+       border-top-left-radius: 0;
+       border-bottom-left-radius: 0;
+    }
+
+    .btn-block {
+        width: 15%;
+    }
+    .form-control {
+        width: 85%;
+        padding: 1.15em .75em;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    main .content-form {
+        padding: 2em 0.8em;
+    }
+
+    main .promo {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+ 
+    main .promo-img {
+        order: 2;
+        padding: 1em 0;
+    }
+
+    main .promo-info {
+        text-align: left;
+        width: 50%;
+    }
+
+   
 }
