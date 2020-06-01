@@ -59,3 +59,59 @@ footer p {
     color: #fff;
     text-transform: uppercase;
 }
+
+@media (min-width: 1024px) {
+    footer .upper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .logo {
+       order: 2;
+    }
+
+    footer .first {
+      padding: 1em 0;
+      margin-right: -0.4em;
+      padding-right: 0.3em;
+    }
+
+    footer .last {
+      order: 3;
+      padding: 1em 0;
+      margin-left: -0.4em;
+      padding-left: 0.9em;
+    }
+    footer .logo img {
+        border: 1px solid #171717;
+        border-radius: 50%;
+    }
+
+    footer .first,
+    footer .last {
+        border: 1px solid #171717;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    footer .middle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .middle > div {
+        width: 280px;
+    }
+
+    footer .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8em 1.5em;
+    }
+
+    footer .social-link {
+        padding-top: 0;
+    }
+}
