@@ -199,12 +199,17 @@ main {
     main .promo {
         padding: 2em 3.5em;
     }
-
+    
+    main .hotel-rooms,
     main .hotel-container {
         grid-template-columns: repeat(4, 1fr);
         
     }
     main .search-field-container {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .hotel-rooms h2 {
+        grid-column: 1/5;
     }
 }
