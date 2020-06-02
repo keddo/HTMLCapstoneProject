@@ -60,6 +60,10 @@ footer p {
     text-transform: uppercase;
 }
 
+.last {
+    display: none;
+}
+
 @media (min-width: 1024px) {
     footer .upper {
         display: flex;
@@ -113,5 +117,9 @@ footer p {
 
     footer .social-link {
         padding-top: 0;
+    }
+
+    .last {
+        display: block
     }
 }
