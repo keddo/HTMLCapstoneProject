@@ -83,6 +83,13 @@ main .content-form label {
 main .service:last-of-type {
   margin-bottom: 2em;
 }
+main .hotel-container .card {
+  width: 100% !important;
+  margin-bottom: 1.5em;
+}
+main .container-fluid {
+  padding-bottom: 1.5em;
+}
 
 @media (min-width: 768px) {
   main .hero {
@@ -135,6 +142,14 @@ main .service:last-of-type {
     text-align: left;
     width: 50%;
   }
+
+  main .hotel-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5em;
+    padding: 1em;
+    padding-bottom: 2.5em;
+  }
 }
 @media (min-width: 1024px) {
   main .hero {
@@ -164,6 +179,10 @@ main .service:last-of-type {
 
   main .promo {
     padding: 2em 3.5em;
+  }
+
+  main .hotel-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 header {

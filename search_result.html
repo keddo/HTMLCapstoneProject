@@ -55,7 +55,87 @@
      </header>
 
      <main>
-         <h1>Seach By, Location, city, hotel or rastaurant or popular travel places</h1>
+         <div class="container-fluid bg-light">
+            <h2 class="h4 text-uppercase text-muted py-2">Seach By Location, city, hotel &amp; rastaurant or popular travel places</h1>
+            <div class="search-field-container">
+                <div class="input-keyword">
+                    <label for="input-field">Keyword</label>
+                    <input type="text" placeholder="Search Keyword" name="input-field">
+                </div>
+                <div class="input-cities">
+                    <label for="cities">City</label>
+                    <select name="cities" id="cities">
+                        <option value="Mekelle">Mekelle</option>
+                        <option value="Adigrat">Adigrat</option>
+                        <option value="Adwa">Adwa</option>
+                        <option value="Axum">Axum</option>
+                        <option value="Hawzen">Hawzen</option>
+                    </select>
+                </div>
+                <div class="hotels">
+                    <label for="cities">Hotel</label>
+                    <select name="hotel" id="hotel">
+                        <option value="Planet Hotel">Planet Hotel</option>
+                        <option value="Axum Hotel">Axum</option>
+                        <option value="Atse Yohannes Hotel">Atse Yohannes Hotel</option>
+                        <option value="Moringa Hotel">Moringa Hotel</option>
+                    </select>
+                </div>
+
+                <div class="price-level">
+                    <label for="cities">Price Level</label>
+                    <select name="price" id="price">
+                        <option value="low">$50 -  $300</option>
+                        <option value="medium">$300 - $800</option>
+                        <option value="Higher">$800 - $1500</option>
+                    </select>
+                </div>
+            </div>
+             <div class="search-title py-2">
+                 <h2 class="h5 text-black-50">10 RESULTS CORRESPONDS TO YOUR SEARCH</h2>
+             </div>
+            <div class="hotel-container">
+                <div class="card" style="width: 18em;">
+                    <img src="./assets/img/planet.jpg" class="card-img-top" alt="Planet hotel">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold text-uppercase">Planet Hotel</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn text-red-light my-2">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20em;">
+                    <img src="./assets/img/axum-hotel.jpg" class="card-img-top" alt="Axum hotel">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold text-uppercase">AXum Hotel</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn text-red-light my-2">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20em;">
+                    <img src="./assets/img/the-noble-yehdega-hotel.jpg" class="card-img-top" alt="Axum hotel">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold text-uppercase">
+                        NOBLE YEHDGA HOTEL</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn text-red-light my-2">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20em;">
+                    <img src="./assets/img/tewelde-hotel.jpg" class="card-img-top" alt="Axum hotel">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold text-uppercase">Tewelde Gidey Hotel</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn text-red-light my-2">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-rooms">
+              
+            </div>
+            <div class="popular-areas-around">
+
+            </div>
+         </div>
          
      </main>
     <footer>
