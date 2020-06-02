@@ -123,6 +123,13 @@ main {
 }
 
 @media (min-width: 1024px) {
+    main .hero {
+        width: 50%;
+        margin: 8em auto !important;
+    }
+    main .promo {
+        padding: 1em 2em;
+    }
     main .services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

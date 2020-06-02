@@ -45,6 +45,11 @@ nav li span {
 }
 
 @media (min-width: 1024px) {
+
+    header nav ul {
+        padding: 0;
+    }
+    
     nav li span {
         display: inline-block;
         font-size: 1rem;
