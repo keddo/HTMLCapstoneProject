@@ -106,6 +106,10 @@ main {
      flex-direction: column;
      justify-content: center;
  }
+
+ .thumbnail-img {
+     margin-right: 2.5em;
+ }
 }
 
 @media (max-width: 578px) {
@@ -184,7 +188,7 @@ main {
    }
 
    .company-goal {
-       width: 80%;
+       width: 90%;
        margin: 0 auto;
    }
 
@@ -196,11 +200,7 @@ main {
  main .company-goal {
      display: flex;
  }
-
- main .company-goal .logo {
-   color: $color-primary;
-   font-size: 200px;
- }
+  
 
  .card img {
      height: 300px;

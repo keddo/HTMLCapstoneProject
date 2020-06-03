@@ -121,6 +121,9 @@ main .search-for-places {
   flex-direction: column;
   justify-content: center;
 }
+main .thumbnail-img {
+  margin-right: 2.5em;
+}
 
 @media (max-width: 578px) {
   .search-field-container form {
@@ -197,7 +200,7 @@ main .hotel-container {
   }
 
   .company-goal {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -208,11 +211,6 @@ main .company-goal h3 {
 
   main .company-goal {
     display: flex;
-  }
-
-  main .company-goal .logo {
-    color: #d35648;
-    font-size: 200px;
   }
 
   .card img {
