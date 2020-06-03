@@ -124,6 +124,9 @@ main .search-for-places {
 main .thumbnail-img {
   margin-right: 2.5em;
 }
+main .list-group-item {
+  border: 0;
+}
 
 @media (max-width: 578px) {
   .search-field-container form {
