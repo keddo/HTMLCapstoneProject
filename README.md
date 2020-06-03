@@ -1,6 +1,6 @@
 # WHERE TO STAY -- An HTML Capstone Project 
 
-> The main idea of this project is to make the life of tourists easy putting all they want on the same platform. It solves the problem of travelers accessing different websites and instead they can get it  in on place. So visitors can search available hotels, guest houses, restaurants and popular places to visit around the area they want to go.   
+> The main idea of this project is to make the life of tourists easy putting all they want on the same platform. It solves the problem of travelers accessing different websites and instead they can get it  in on place. So visitors can search available hotels, guest houses, restaurants and popular places to visit around the area they want to go. They can access the companies website if it's available.  
 
 ![screenshot](./app_screenshot.png)
 
