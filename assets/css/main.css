@@ -368,6 +368,8 @@ footer p {
 
 .social {
   background-color: #171717;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .social-link {
