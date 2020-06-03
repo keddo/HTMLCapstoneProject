@@ -206,10 +206,15 @@ main {
         
     }
     main .search-field-container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
     }
 
     .hotel-rooms h2 {
         grid-column: 1/5;
+    }
+
+    .btn-search button {
+        margin-top: 2.5em;
     }
 }
