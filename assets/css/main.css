@@ -34,68 +34,86 @@ main h2 {
   text-transform: uppercase;
   padding-bottom: 0.4em;
 }
+
 main .hero {
   width: 95%;
   margin: 0 auto;
 }
+
 main .content-search {
   padding: 2em 0;
 }
+
 main .content-form {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1em 0.5em;
   border-radius: 0.5em;
 }
+
 main .btn-light-red {
   background: #d35648;
 }
+
 main .services {
   background-color: #fff;
   padding: 1em;
   text-align: center;
 }
+
 main .service h2 {
   margin: 0.5em 0;
 }
+
 main .promos {
   text-align: center;
 }
+
 main .promo {
   padding: 1em 0;
 }
+
 main #promo-1 {
   background: #d35648;
 }
+
 main #promo-2 {
-  background: #8B9798;
+  background: #8b9798;
 }
+
 main #promo-3 {
-  background: #509BD7;
+  background: #509bd7;
 }
+
 main .promo img {
   width: 200px;
   max-width: 100%;
   height: 200px;
   border-radius: 50%;
 }
+
 main .promo-info {
   padding: 1em;
   color: #fff;
 }
+
 main .content-form label {
   color: #000;
 }
+
 main .service:last-of-type {
   margin-bottom: 2em;
 }
+
 main .hotel-rooms .card,
 main .hotel-container .card {
   width: 100% !important;
   margin-bottom: 1.5em;
 }
+
 main .container-fluid {
   padding-bottom: 1.5em;
 }
+
 main .search-field-container input,
 main .search-field-container select {
   display: block;
@@ -105,12 +123,14 @@ main .search-field-container select {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 main .search-field-container form {
   margin: 1.3em 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
 }
+
 main .search-field-container label {
   display: block;
   padding: 0.6em 0;
@@ -118,21 +138,26 @@ main .search-field-container label {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
+
 main .company-goal h3 {
   text-align: center;
 }
+
 main .search-for-places {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 main .list-group-item {
   border: 0;
 }
+
 main .company-goal div:last-of-type {
   width: 90%;
   margin: 0 auto;
 }
+
 main .thumbnail-img .img-fluid {
   height: 400px;
   object-fit: cover;
@@ -143,6 +168,7 @@ main .thumbnail-img .img-fluid {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+
 @media (min-width: 768px) {
   main .hero {
     width: 70%;
@@ -154,7 +180,7 @@ main .thumbnail-img .img-fluid {
   }
 
   .content-form input,
-.content-form button {
+  .content-form button {
     display: inline-block;
   }
 
@@ -200,7 +226,7 @@ main .thumbnail-img .img-fluid {
   }
 
   main .hotel-rooms,
-main .hotel-container {
+  main .hotel-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5em;
@@ -218,7 +244,7 @@ main .hotel-container {
   }
 
   main .company-goal h2,
-main .company-goal h3 {
+  main .company-goal h3 {
     text-align: left;
   }
 
@@ -240,14 +266,11 @@ main .company-goal h3 {
     margin: 0 auto;
   }
 }
+
 @media (min-width: 1024px) {
   main .hero {
     width: 50%;
     margin: 8em auto !important;
-  }
-
-  main .promo {
-    padding: 1em 2em;
   }
 
   main .services {
@@ -271,7 +294,7 @@ main .company-goal h3 {
   }
 
   main .hotel-rooms,
-main .hotel-container {
+  main .hotel-container {
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -289,24 +312,25 @@ main .hotel-container {
     margin-top: 2.5em;
   }
 }
+
 header {
   background: #d35648;
   text-align: center;
 }
+
 header .brand a {
   display: block;
   padding: 0.6em 0;
 }
+
 header nav ul {
   padding: 0.6em 0 1em;
   margin-bottom: 0;
 }
+
 header nav li {
   display: inline-block;
   margin-right: 2em;
-}
-header nav li:last-of-type {
-  margin-right: 0;
 }
 
 nav li span {
@@ -335,6 +359,7 @@ nav li span {
     margin: 0;
   }
 }
+
 @media (min-width: 1024px) {
   header nav ul {
     padding: 0;
@@ -349,6 +374,7 @@ nav li span {
     color: #fff;
   }
 }
+
 footer {
   background-color: #000;
   text-align: center;
@@ -408,12 +434,16 @@ footer p {
   margin-right: 0.8em;
 }
 
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
 .copyright {
   font-size: 0.92rem;
 }
 
 .bg-send {
-  background-color: #444444;
+  background-color: #444;
   color: #fff;
   text-transform: uppercase;
 }
@@ -439,6 +469,10 @@ footer p {
     padding-right: 0.3em;
   }
 
+  .last {
+    display: block;
+  }
+
   footer .last {
     order: 3;
     padding: 1em 0;
@@ -452,7 +486,7 @@ footer p {
   }
 
   footer .first,
-footer .last {
+  footer .last {
     border: 1px solid #171717;
     border-left: 0;
     border-right: 0;
@@ -477,10 +511,4 @@ footer .last {
   footer .social-link {
     padding-top: 0;
   }
-
-  .last {
-    display: block;
-  }
 }
-
-/*# sourceMappingURL=main.css.map */
