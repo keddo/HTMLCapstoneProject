@@ -129,7 +129,17 @@ main {
         display: inline-block;
     }
     
+    .content-form input {
+      padding: 1em 0.5em;
+    }
+
+    .content-form .search-for-places {
+     align-items: center;
+     flex-direction: row;
+     }
+    
     .content-form button  {
+       margin-top: 0 !important;
        border-top-left-radius: 0;
        border-bottom-left-radius: 0;
     }
