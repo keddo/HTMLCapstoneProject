@@ -1,4 +1,4 @@
-# WHERE TO STAY -- An HTML Capstone Project 
+# WHERE TO STAY
 
 > The main idea of this project is to make the life of tourists easy putting all they want on the same platform. It solves the problem of travelers accessing different websites and instead they can get it  in on place. So visitors can search available hotels, guest houses, restaurants and popular places to visit around the area they want to go. They can access the companies website if it's available.  
 
@@ -10,10 +10,11 @@ Additional description about the project and its features.
 
 - HTML,
 - CSS[SASS]
-- Bootstrap,
+- Bootstrap
 
 ## Live Demo
 
+> Click the link below to see the live demo.
 [Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/002142432ece87c39d03f230945410b68bf6da6f/index.html)
 
 
@@ -22,7 +23,12 @@ Additional description about the project and its features.
 **Clone the project to you local machine run index file**
 
 ### Setup
-> Clone the project into you directory and open it.
+> Clone the project into you directory.
+### Customize
+> Install SASS as global using npm install --global sass or locally npm install
+> Add you own css on the sass 
+> compile the it using npm start
+
 
 
 ## Authors
@@ -36,7 +42,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/keddo/HTMLCapstoneProject/issues/2).
 
 ## Show your support
 
