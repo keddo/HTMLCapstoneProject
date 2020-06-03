@@ -143,12 +143,7 @@ main .company-goal h3 {
     border-bottom-left-radius: 0;
   }
 
-  .btn-block {
-    width: 15%;
-  }
-
   .form-control {
-    width: 85%;
     padding: 1.15em 0.75em;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
