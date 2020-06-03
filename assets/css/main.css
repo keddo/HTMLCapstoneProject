@@ -1,7 +1,12 @@
 body {
   font-family: "Lato", sans-serif;
   width: 100%;
-  max-width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#app {
   background-image: url("../img/bg-4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
