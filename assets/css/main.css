@@ -216,7 +216,7 @@ main .company-goal h3 {
   }
 
   .card img {
-    height: 350px;
+    height: 300px;
     object-fit: cover;
   }
 }
