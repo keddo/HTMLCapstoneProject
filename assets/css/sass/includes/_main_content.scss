@@ -101,6 +101,11 @@ main {
  .company-goal h3 {
      text-align: center;
  }
+ .search-for-places {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
 }
 
 @media (max-width: 578px) {
@@ -125,7 +130,6 @@ main {
     }
     
     .content-form button  {
-       margin-left: -0.3em;
        border-top-left-radius: 0;
        border-bottom-left-radius: 0;
     }
