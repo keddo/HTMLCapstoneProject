@@ -294,6 +294,7 @@ header .brand a {
 }
 header nav ul {
   padding: 0.6em 0 1em;
+  margin-bottom: 0;
 }
 header nav li {
   display: inline-block;
@@ -351,6 +352,7 @@ footer {
 footer p {
   color: #848586;
   padding: 0.8em 0;
+  margin-bottom: 0;
 }
 
 .upper {
