@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-> Click the link below to see the live demo.
+> Click the link to see the live demo.
 [Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/002142432ece87c39d03f230945410b68bf6da6f/index.html)
 
 
@@ -25,9 +25,9 @@ Additional description about the project and its features.
 ### Setup
 > Clone the project into you directory.
 ### Customize
-> Install SASS as global using npm install --global sass or locally npm install
-> Add you own css on the sass 
-> compile the it using npm start
+- Install SASS as global using npm install --global sass or locally npm install
+- Add you own css on the sass 
+- compile the it using npm start
 
 
 
