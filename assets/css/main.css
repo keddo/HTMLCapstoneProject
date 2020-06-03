@@ -121,11 +121,16 @@ main .search-for-places {
   flex-direction: column;
   justify-content: center;
 }
-main .thumbnail-img {
-  margin-right: 2.5em;
-}
 main .list-group-item {
   border: 0;
+}
+main .company-goal div:last-of-type {
+  width: 90%;
+  margin: 0 auto;
+}
+main .thumbnail-img .img-fluid {
+  height: 400px;
+  object-fit: cover;
 }
 
 @media (max-width: 578px) {
@@ -219,6 +224,15 @@ main .company-goal h3 {
   .card img {
     height: 300px;
     object-fit: cover;
+  }
+
+  .thumbnail-img {
+    margin-right: 2.5em;
+  }
+
+  main .company-goal div:last-of-type {
+    width: 500px;
+    margin: 0 auto;
   }
 }
 @media (min-width: 1024px) {
