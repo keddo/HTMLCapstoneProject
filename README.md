@@ -1,6 +1,6 @@
-# Using Bootstrap -- Newsweek clone 
+# WHERE TO STAY -- An HTML Capstone Project 
 
-> This project, consists of using and get to know about bootstrap. By be cloning the Newsweek website.
+> The main idea of this project is to make the life of tourists easy putting all they want on the same platform. It solves the problem of travelers accessing different websites and instead they can get it  in on place. So visitors can search available hotels, guest houses, restaurants and popular places to visit around the area they want to go.   
 
 ![screenshot](./app_screenshot.png)
 
@@ -11,11 +11,10 @@ Additional description about the project and its features.
 - HTML,
 - CSS[SASS]
 - Bootstrap,
-- Javascript
 
 ## Live Demo
 
-[Open Live Demo](https://rawcdn.githack.com/keddo/newsweek-clone/de5f31adb87e3412212ed04ee20ec903baf4e72b/index.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/002142432ece87c39d03f230945410b68bf6da6f/index.html)
 
 
 ## Getting Started
