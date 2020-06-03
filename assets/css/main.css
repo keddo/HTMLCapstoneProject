@@ -214,6 +214,11 @@ main .company-goal h3 {
     color: #d35648;
     font-size: 200px;
   }
+
+  .card img {
+    height: 350px;
+    object-fit: cover;
+  }
 }
 @media (min-width: 1024px) {
   main .hero {
