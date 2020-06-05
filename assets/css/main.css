@@ -154,13 +154,15 @@ main .list-group-item {
 }
 
 main .company-goal div:last-of-type {
-  width: 90%;
   margin: 0 auto;
 }
 
 main .thumbnail-img .img-fluid {
   height: 400px;
   object-fit: cover;
+}
+main .popular-side {
+  text-align: center;
 }
 
 @media (max-width: 578px) {
@@ -174,7 +176,15 @@ main .thumbnail-img .img-fluid {
     width: 70%;
     margin: 5em auto !important;
   }
-
+  main .content-about {
+    display: flex;
+  }
+  .popular-article {
+    width: 250px;
+  }
+  .popular-side.mt-5 {
+    padding-left: 2em;
+  }
   .content-search {
     padding: 0;
   }
@@ -239,30 +249,30 @@ main .thumbnail-img .img-fluid {
   }
 
   .company-goal {
-    width: 90%;
+    width: 710px;
     margin: 0 auto;
   }
+
+  main .popular-side {
+    text-align: left;
+ }
 
   main .company-goal h2,
   main .company-goal h3 {
     text-align: left;
   }
 
-  main .company-goal {
+  /* main .company-goal {
     display: flex;
-  }
+  } */
 
   .card img {
     height: 300px;
     object-fit: cover;
   }
 
-  .thumbnail-img {
-    margin-right: 2.5em;
-  }
-
   main .company-goal div:last-of-type {
-    width: 500px;
+    padding-top: 2em;
     margin: 0 auto;
   }
 }
@@ -310,6 +320,9 @@ main .thumbnail-img .img-fluid {
 
   .btn-search button {
     margin-top: 2.5em;
+  }
+  .popular-side.mt-5 {
+    padding-right: 10em;
   }
 }
 
@@ -373,6 +386,7 @@ nav li span {
     text-transform: uppercase;
     color: #fff;
   }
+
 }
 
 footer {
