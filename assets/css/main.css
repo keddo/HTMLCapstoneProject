@@ -129,17 +129,6 @@ main .search-field-container select {
   border-radius: 4px;
 }
 
-main .search-field-container form {
-  margin: 1.3em 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1em;
-}
-
-main .btn-search {
-  grid-column: 1/3;
-}
-
 main .search-field-container label {
   display: block;
   padding: 0.6em 0;
@@ -224,6 +213,17 @@ main .mt-5 {
 
   main .content-form {
     padding: 2em 0.8em;
+  }
+
+  main .search-field-container form {
+    margin: 1.3em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+  }
+  
+  main .btn-search {
+    grid-column: 1/3;
   }
 
   main .promo {
