@@ -29,8 +29,17 @@ h2 {
   color: #d35648;
 }
 
-main h2 {
+footer,
+header,
+main .popular-side,
+main .company-goal h3,
+main .promos,
+main h2,
+main .services {
   text-align: center;
+}
+
+main h2 {
   text-transform: uppercase;
   padding-bottom: 0.4em;
 }
@@ -57,15 +66,10 @@ main .btn-light-red {
 main .services {
   background-color: #fff;
   padding: 1em;
-  text-align: center;
 }
 
 main .service h2 {
   margin: 0.5em 0;
-}
-
-main .promos {
-  text-align: center;
 }
 
 main .promo {
@@ -139,10 +143,6 @@ main .search-field-container label {
   color: rgba(0, 0, 0, 0.85);
 }
 
-main .company-goal h3 {
-  text-align: center;
-}
-
 main .search-for-places {
   display: flex;
   flex-direction: column;
@@ -161,8 +161,9 @@ main .thumbnail-img .img-fluid {
   height: 400px;
   object-fit: cover;
 }
-main .popular-side {
-  text-align: center;
+
+main .mt-5 {
+  margin-top: 0!important;
 }
 
 @media (max-width: 578px) {
@@ -231,7 +232,6 @@ main .popular-side {
   }
 
   main .promo-info {
-    text-align: left;
     width: 50%;
   }
 
@@ -252,11 +252,9 @@ main .popular-side {
     width: 710px;
     margin: 0 auto;
   }
-
-  main .popular-side {
-    text-align: left;
- }
-
+ 
+  main .promo-info,
+  main .popular-side,
   main .company-goal h2,
   main .company-goal h3 {
     text-align: left;
@@ -274,6 +272,9 @@ main .popular-side {
   main .company-goal div:last-of-type {
     padding-top: 2em;
     margin: 0 auto;
+  }
+  main .mt-5 {
+    margin-top: 3rem!important;
   }
 }
 
@@ -328,7 +329,6 @@ main .popular-side {
 
 header {
   background: #d35648;
-  text-align: center;
 }
 
 header .brand a {
@@ -391,7 +391,6 @@ nav li span {
 
 footer {
   background-color: #000;
-  text-align: center;
 }
 
 footer p {
