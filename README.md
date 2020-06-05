@@ -20,7 +20,7 @@ Additional description about the project and its features.
 ## Presentation video
 
 > Click the link to open the presentation of the project .
-[Open Video](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/002142432ece87c39d03f230945410b68bf6da6f/index.html)
+[Open Video](https://www.loom.com/share/6de474170993446bae2307ee538a6fdf)
 
 
 ## Getting Started
