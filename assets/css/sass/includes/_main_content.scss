@@ -1,6 +1,5 @@
 main {
     h2 {
-        text-align: center;
         text-transform: uppercase;
         padding-bottom: 0.4em;
     }
@@ -119,6 +118,9 @@ main {
 .thumbnail-img .img-fluid {
     height: 400px;
     object-fit: cover;
+}
+.mt-5 {
+    margin-top: 0!important;
 }
 }
 

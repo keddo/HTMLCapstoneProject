@@ -17,6 +17,10 @@ Additional description about the project and its features.
 > Click the link to see the live demo.
 [Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/002142432ece87c39d03f230945410b68bf6da6f/index.html)
 
+## Presentation video
+
+> Click the link to open the presentation of the project .
+[Open Video](https://www.loom.com/share/6de474170993446bae2307ee538a6fdf)
 
 ## Getting Started
 > Clone the project to you local machine 
@@ -30,7 +34,6 @@ Additional description about the project and its features.
 > npm start
 
 
-
 ## Authors
 
 👤 **Kedir**
@@ -38,6 +41,7 @@ Additional description about the project and its features.
 - Github: [@keddo](https://github.com/keddo)
 - Twitter: [@kedirman](https://twitter.com/kedirman)
 - Linkedin: [@kedirabdurahman](https://www.linkedin.com/in/kedirabdurahman/)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
