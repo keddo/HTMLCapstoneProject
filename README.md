@@ -20,6 +20,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 > Clone the project to you local machine 
+> git clone https://github.com/keddo/HTMLCapstoneProject.git
 **then run index file**
 ### Customize
 - Install SASS as global using 
