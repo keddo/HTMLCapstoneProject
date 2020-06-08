@@ -19,15 +19,14 @@ Additional description about the project and its features.
 
 
 ## Getting Started
-
-**Clone the project to you local machine run index file**
-
-### Setup
-> Clone the project into you directory.
+> Clone the project to you local machine 
+**then run index file**
 ### Customize
-- Install SASS as global using npm install --global sass or locally npm install
-- Add you own css on the sass 
-- compile the it using npm start
+- Install SASS as global using 
+> npm install --global sass 
+> npm install
+- Add you own css on the sass files and compile it using 
+> npm start
 
 
 
