@@ -23,9 +23,11 @@ Additional description about the project and its features.
 [Open Video](https://www.loom.com/share/6de474170993446bae2307ee538a6fdf)
 
 ## Getting Started
-> Clone the project to you local machine 
+-Clone the project to you local machine 
 > git clone https://github.com/keddo/HTMLCapstoneProject.git
-**then run index file**
+
+- Then run index file**
+
 ### Customize
 - Install SASS as global using 
 > npm install --global sass 
