@@ -23,7 +23,7 @@ Additional description about the project and its features.
 [Open Video](https://www.loom.com/share/6de474170993446bae2307ee538a6fdf)
 
 ## Getting Started
--Clone the project to you local machine 
+- Clone the project to you local machine 
 > git clone https://github.com/keddo/HTMLCapstoneProject.git
 
 - Then run index file**
