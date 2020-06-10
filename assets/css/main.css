@@ -176,7 +176,7 @@ main .mt-5 {
     display: flex;
     justify-content: space-around;
   }
-   
+
   .contact-details,
   .popular-article {
     width: 250px;
@@ -267,6 +267,7 @@ main .mt-5 {
 
   .company-goal {
     width: 710px;
+
     /* margin: 0 auto; */
   }
 
@@ -344,7 +345,6 @@ main .mt-5 {
   .btn-search button {
     margin-top: 2.5em;
   }
-
 }
 
 header {
