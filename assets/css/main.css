@@ -174,10 +174,13 @@ main .mt-5 {
 
   main .content-about {
     display: flex;
+    justify-content: space-between;
   }
-
+   
+  .contact-details,
   .popular-article {
     width: 250px;
+    margin: 0 auto;
   }
 
   .popular-side.mt-5 {
@@ -251,6 +254,11 @@ main .mt-5 {
     grid-gap: 1.5em;
     padding: 1em;
     padding-bottom: 2.5em;
+  }
+
+  main .company-goal .hotel-rooms {
+    display: flex;
+    flex-direction: column;
   }
 
   .hotel-rooms h2 {
@@ -337,9 +345,6 @@ main .mt-5 {
     margin-top: 2.5em;
   }
 
-  .popular-side.mt-5 {
-    padding-right: 10em;
-  }
 }
 
 header {
