@@ -349,6 +349,12 @@ main .mt-5 {
   .btn-search button {
     margin-top: 2.5em;
   }
+
+  footer .md-h {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 header {
@@ -535,7 +541,12 @@ header nav li:last-of-type {
   }
 
   footer .middle .subscribe {
-    width: 100%;
+    width: 300px;
+  }
+
+  footer .middle .contact,
+  footer .middle .about {
+    width: 350px;
   }
 
   footer .social {
