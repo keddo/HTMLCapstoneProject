@@ -15,7 +15,7 @@ Additional description about the project and its features.
 ## Live Demo
 
 > Click the link to see the live demo.
-[Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/7b217ecdcc6e333cfc62ab3b4a6215e2601e8473/about.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/bd48ac450a0852ecb5f5688822ef5c93a55fcaa4/index.html)
 
 ## Presentation video
 
