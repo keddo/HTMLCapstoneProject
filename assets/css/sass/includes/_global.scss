@@ -1,0 +1,15 @@
+body {
+   font-family: $family-roboto;
+   width: 100%;
+   max-width: 1400px;
+   margin: 0 auto;
+   background-color: #fff;
+}
+
+#app {
+   background-image: url($bg-img-url);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}

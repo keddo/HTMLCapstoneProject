@@ -1,0 +1,19 @@
+# add the linters you want stickler to use for this project
+linters:
+  stylelint:
+    # indicate where is the config file for stylelint
+    config: 'stylelint.config.js'
+files:
+  ignore:
+    - "assets/css/sass/main.scss"
+    - "assets/css/sass/includes/_color.scss"
+    - "assets/css/sass/includes/_footer.scss"
+    - "assets/css/sass/includes/_global.scss"
+    - "assets/css/sass/includes/_typography.scss"
+    - "assets/css/sass/includes/_variables.scss"
+    - "assets/css/sass/includes/_main_content.scss"
+    - "assets/css/sass/includes/_header.scss"
+# PLEASE DO NOT enable auto fixing options
+# if you need extra support from you linter - do it in your local env as described in README for this config
+
+# find full documentation here: https://stickler-ci.com/docs

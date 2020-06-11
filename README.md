@@ -1,6 +1,6 @@
-# Capstone Project -- Find favoratie Hotel to stay
+# WHERE TO STAY
 
-> This project, consists of building responsive website by specifying you own business requirements. According to the design given.
+> The main idea of this project is to make the life of tourists easy putting all they want on the same platform. It solves the problem of travelers accessing different websites and instead they can get it  in on place. So visitors can search available hotels, guest houses, restaurants and popular places to visit around the area they want to go. They can access the companies website if it's available.  
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,20 +10,30 @@ Additional description about the project and its features.
 
 - HTML,
 - CSS[SASS]
-- Bootstrap,
-- Javascript
+- Bootstrap
 
 ## Live Demo
 
-[Open Live Demo](https://rawcdn.githack.com/keddo/newsweek-clone/de5f31adb87e3412212ed04ee20ec903baf4e72b/index.html)
+> Click the link to see the live demo.
+[Open Live Demo](https://rawcdn.githack.com/keddo/HTMLCapstoneProject/bd48ac450a0852ecb5f5688822ef5c93a55fcaa4/index.html)
 
+## Presentation video
+
+> Click the link to open the presentation of the project .
+[Open Video](https://www.loom.com/share/6de474170993446bae2307ee538a6fdf)
 
 ## Getting Started
+- Clone the project to you local machine 
+> git clone https://github.com/keddo/HTMLCapstoneProject.git
 
-**Clone the project to you local machine run index file**
+- Then run index file**
 
-### Setup
-> Clone the project into you directory and open it.
+### Customize
+- Install SASS as global using 
+> npm install --global sass 
+> npm install
+- Add you own css on the sass files and compile it using 
+> npm start
 
 
 ## Authors
@@ -33,11 +43,12 @@ Additional description about the project and its features.
 - Github: [@keddo](https://github.com/keddo)
 - Twitter: [@kedirman](https://twitter.com/kedirman)
 - Linkedin: [@kedirabdurahman](https://www.linkedin.com/in/kedirabdurahman/)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/keddo/HTMLCapstoneProject/issues/2).
 
 ## Show your support
 

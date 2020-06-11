@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where to Stay - Find your favoraite hotel</title>
-    <link rel="icon" type="image/ico" sizes="32x32"
-        href="./assets/img/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./assets/img/favicon.ico">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Montserrat:wght@400;500;900&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Fontawesome -->
@@ -15,10 +19,217 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body id="app">
 
-     
-    
+    <header>
+        <a href="#" class="brand">
+            <img src="./assets/img/logo.png" alt="Where to stay Brand logo" width="70" height="70">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home text-white"> </i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="search_result.html">
+                        <i class="fas fa-search text-white"> </i>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <i class="fas fa-user text-white"> </i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-bars text-white"></i>
+                        <span>More</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero mt-4 mb-2">
+            <div class="content-search">
+                <h1 class="d-2 text-white">Where to stay ... Find guest house, hotel and restuarant of your choice.
+                </h1>
+                <div class="content-form">
+                    <form action="search_result.html">
+                        <label for="search" class="text-uppercase font-weight-bold mb-1">Search by keyword:</label>
+                        <div class="search-for-places">
+                            <input type="text" class="form-control" placeholder="Search" id="search">
+                            <button type="submit"
+                                class="btn btn-light-red text-white text-uppercase font-weight-bold mt-2">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <button class="btn btn-light  font-weight-bold ml-4 my-4">How it works</button>
+        </div>
+        <div class="services">
+            <h2 class="h2 title text-uppercase font-weight-bold">Use our services in four steps</h2>
+            <div class="service">
+                <h2 class="py-2">
+                    <i class="fas fa-money-check-alt"></i>
+                    <span style="display: none;">The is for desc</span>
+                </h2>
+                <h3 class="h5 text-uppercase font-weight-bold">
+                    Plan
+                </h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda commodi veniam
+                    necessitatibus, in nisi quia voluptas similique amet tempora.
+                </p>
+            </div>
+            <div class="service">
+                <h2 class="py-2">
+                    <i class="fas fa-search-location"></i>
+                    <span style="display: none;">The is for desc</span>
+                </h2>
+                <h3 class="h5 text-uppercase font-weight-bold">
+                    Search
+                </h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda commodi veniam
+                    necessitatibus, in nisi quia voluptas similique amet tempora.
+                </p>
+            </div>
+            <div class="service">
+                <h2 class="py-2">
+                    <i class="fas fa-file-contract"></i>
+                    <span style="display: none;">The is for desc</span>
+                </h2>
+                <h3 class="h5 text-uppercase font-weight-bold">
+                    Contact
+                </h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda commodi veniam
+                    necessitatibus, in nisi quia voluptas similique amet tempora.
+                </p>
+            </div>
+            <div class="service">
+                <h2 class="py-2">
+                    <i class="fas fa-couch"></i>
+                    <span style="display: none;">The is for desc</span>
+                </h2>
+                <h3 class="h5 text-uppercase font-weight-bold">
+                    Relax
+                </h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda commodi veniam
+                    necessitatibus, in nisi quia voluptas similique amet tempora.
+                </p>
+            </div>
+        </div>
+        <div class="promos">
+            <div class="promo" id="promo-1">
+                <div class="promo-img">
+                    <img src="./assets/img/hotel-1.jpg" alt="Promo Image 1">
+                </div>
+                <div class="promo-info">
+                    <p class="h5 font-weight-bold">Look Hotels</p>
+                    <p class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, ea.</p>
+                    <a href="#" class="btn btn-light px-3 py-1 my-2 text-red-light">Learn more</a>
+                </div>
+            </div>
+            <div class="promo" id="promo-2">
+
+                <div class="promo-img">
+                    <img src="./assets/img/visit.jpg" alt="Promo Image 1">
+                </div>
+                <div class="promo-info">
+                    <p class="h5 font-weight-bold body">Find Places to Visit?</p>
+                    <p class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, ea.</p>
+
+                    <a href="#" class="btn btn-light px-3 py-1 my-2 text-red-light">Learn more</a>
+                </div>
+            </div>
+            <div class="promo" id="promo-3">
+
+                <div class="promo-img">
+                    <img src="./assets/img/food.jpg" alt="Promo Image 1">
+                </div>
+                <div class="promo-info">
+                    <p class="h5 font-weight-bold">Where to eat?</p>
+                    <p class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, ea.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="upper">
+                <div class="logo">
+                    <img src="./assets/img/logo.png" alt="Campany Logo" width="100" height="100">
+                </div>
+                <nav class="first">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="">Search</a></li>
+                        <li><a href="">Visit</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </nav>
+                <nav class="last">
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="middle">
+                <div class="subscribe">
+                    <span class="short-info pb-lg-3">Subscribe</span>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control bg-transparent py-0" placeholder="company@example.com">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-send">Send</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md-h">
+                    <div class="contact">
+                        <span class="short-info">Contact</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque sunt nostrum ullam non
+                            illo
+                            distinctio magni quod similique. Doloremque. <span
+                                class="text-red-light">companyinfo@wheretostay.com</span></p>
+                    </div>
+                    <div class="about">
+                        <span class="short-info">About</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur eveniet excepturi voluptas
+                            veniam
+                            hic! Molestiae eaque modi sed! <span class="text-red-light">Learn more</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <div class="social-link">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook text-white"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter text-white"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin text-white"></i></a></li>
+                    </ul>
+                </div>
+                <p class="copyright">&copy; 2020 All rights reseved. Powered by <span class="text-red-light">Kedir
+                        A.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>

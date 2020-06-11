@@ -1,0 +1,128 @@
+footer {
+    background-color: #000;
+    text-align: center;
+}
+footer p {
+    color: #848586;
+    padding: 0.8em 0;
+    margin-bottom: 0;
+}
+.upper {
+    padding: 1em 0;
+}
+.upper ul {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.upper li {
+   display: inline-block;
+   margin-right: 0.6em;
+}
+.upper li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.middle {
+    padding: 0.5em 1em;
+}
+
+.short-info {
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.social {
+    background-color: #171717;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.social-link {
+  padding-top: 1em;
+}
+
+.social-link ul li {
+    display: inline-block;
+    margin-right: 0.8em;
+}
+
+
+.copyright {
+    font-size: 0.92rem;
+}
+
+.bg-send {
+    background-color: #444444;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.last {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    footer .upper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .logo {
+       order: 2;
+    }
+
+    footer .first {
+      padding: 1em 0;
+      margin-right: -0.4em;
+      padding-right: 0.3em;
+    }
+
+    footer .last {
+      order: 3;
+      padding: 1em 0;
+      margin-left: -0.4em;
+      padding-left: 0.9em;
+    }
+    footer .logo img {
+        border: 1px solid #171717;
+        border-radius: 50%;
+    }
+
+    footer .first,
+    footer .last {
+        border: 1px solid #171717;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    footer .middle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .middle > div {
+        width: 280px;
+    }
+
+    footer .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8em 1.5em;
+    }
+
+    footer .social-link {
+        padding-top: 0;
+    }
+
+    .last {
+        display: block
+    }
+}
